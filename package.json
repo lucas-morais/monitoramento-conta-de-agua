@@ -1,0 +1,38 @@
+{
+  "name": "monitoramento-conta-de-agua",
+  "version": "1.0.0",
+  "main": "./build/server.js",
+  "repository": "git@github.com:lucas-morais/monitoramento-conta-de-agua.git",
+  "author": "Lucas Toledo <lucasmoraisss@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn tsc",
+    "dev": "nodemon src/server.ts",
+    "start": "yarn build && node ."
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.1",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^18.0.0",
+    "@types/sinon": "^10.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "chai": "^4.3.6",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.16",
+    "sinon": "^14.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "zod": "^3.17.3"
+  }
+}
